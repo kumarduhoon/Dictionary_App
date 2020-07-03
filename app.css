@@ -1,0 +1,102 @@
+/* import font family from the google */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+/* reset css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 40px;
+    background-color: rgb(164, 131, 194);
+}
+.classH3{
+    padding-top: 8px;
+    margin-left: 70px;
+    font-family: 'Oswald', sans-serif;
+}
+.sectionClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.classh2{
+    padding-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.classDiv1{
+    display: flex;
+    text-align: center;
+} 
+classDIv2{
+    display: flex;
+    flex-direction: column;
+}
+
+#input{
+    width: 305px;
+    height: 32px;
+    border: 2px solid black;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 10px;
+}
+#btn{
+    height: 33px;
+    padding: 0px 10px;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(164, 131, 194);
+    border: 2px solid black;
+    border-radius: 7px;
+    outline: none;
+}
+
+.sectionClass1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#span{
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    display: none;
+}
+.classP{
+    margin: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+.not_found{
+    color: rgb(69, 141, 69);
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.classSpan{
+    color: rgb(69, 141, 69);
+    font-family: 'Oswald', sans-serif;  
+    text-align: center;
+}
+.classSpan1{
+color: black;
+background-color: rgb(190, 233, 219);
+margin: 5px;
+font-family: 'Oswald', sans-serif; 
+display: inline-block;
+border-radius: 5px;
+}
+.classSug{
+    max-width: 310px;
+}
+.hello{
+    outline: none;
+    margin-top: 20px;
+    background-color: brown;
+}
+.classEmpy{
+    font-family: 'Oswald', sans-serif; 
+    color: red;
+}
